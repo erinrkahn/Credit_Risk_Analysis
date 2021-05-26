@@ -12,15 +12,15 @@ The purpose of this analysis is to
 
 ###### RandomOverSampler
 Balanced Accuracy Score
->
+>![RandomOverSamplerA](https://user-images.githubusercontent.com/77405273/119721584-268df300-be20-11eb-953b-0dffb2282d4d.png)
 Imbalanced Classification Report
->
+>![RandomOverSamplerB](https://user-images.githubusercontent.com/77405273/119721590-27268980-be20-11eb-937d-7ae048e3c36b.png)
 
 ###### SMOTE
 Balanced Accuracy Score
->
+>![SMOTEA](https://user-images.githubusercontent.com/77405273/119721591-27bf2000-be20-11eb-95db-baa3f4aff765.png)
 Imbalanced Classification Report
->
+>![SMOTEB](https://user-images.githubusercontent.com/77405273/119721593-27bf2000-be20-11eb-9111-0e731e7f882f.png)
 
 - Description
 
@@ -28,9 +28,9 @@ Imbalanced Classification Report
 
 ###### ClusterCentroids
 Balanced Accuracy Score
->
+>![UnderA](https://user-images.githubusercontent.com/77405273/119721594-2857b680-be20-11eb-8097-fcdd6074a61b.png)
 Imbalanced Classification Report
->
+>![UnderB](https://user-images.githubusercontent.com/77405273/119721596-2857b680-be20-11eb-8d15-a1cf8d5a2f2b.png)
 
 - Description
 
@@ -38,9 +38,9 @@ Imbalanced Classification Report
 
 ###### SMOTEENN
 Balanced Accuracy Score
->
+>![SMOTEENNA](https://user-images.githubusercontent.com/77405273/119721601-2b52a700-be20-11eb-9e59-b5104d2e90c1.png)
 Imbalanced Classification Report
->
+>![SMOTEENNB](https://user-images.githubusercontent.com/77405273/119721604-2b52a700-be20-11eb-8c33-69bf6fb187a0.png)
 
 - Description
 
@@ -48,15 +48,15 @@ Imbalanced Classification Report
 
 ###### BalancedRandomForestClassifier
 Balanced Accuracy Score
->
+>![BalancedRandomForestClassifierA](https://user-images.githubusercontent.com/77405273/119721605-2beb3d80-be20-11eb-8a87-2df8cbf664f9.png)
 Imbalanced Classification Report
->
+>![BalancedRandomForestClassifierB](https://user-images.githubusercontent.com/77405273/119721608-2c83d400-be20-11eb-8427-bdc9c6e4826a.png)
 
 ###### EasyEnsembleClassifier
 Balanced Accuracy Score
->
+>![EasyEnsembleA](https://user-images.githubusercontent.com/77405273/119721610-2c83d400-be20-11eb-9cfc-110227dae52a.png)
 Imbalanced Classification Report
->
+>![EasyEnsembleB](https://user-images.githubusercontent.com/77405273/119721611-2c83d400-be20-11eb-908b-dab39c89f401.png)
 
 - Description
 
