@@ -4,7 +4,7 @@
 
 ### Purpose
 
-The purpose of this analysis is to  
+This analysis utilizes imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling. Multiple sampling methods are used to predict and compare credit risk among credit card applicants. RandomOverSampler and SMOTE are used to oversample the data, ClusterCentroids to undersample, SMOTEENN as a combination approach of over- and undersampling, and BalancedRandomForestClassifier and EasyEnsembleClassfier machine learning models are used to reduce bias. All models are evaluated for performance and a final recommendation.  
 
 ## Results
 
