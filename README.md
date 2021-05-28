@@ -64,8 +64,9 @@ Balanced Accuracy Score
 Imbalanced Classification Report
 >![EasyEnsembleB](https://user-images.githubusercontent.com/77405273/119721611-2c83d400-be20-11eb-908b-dab39c89f401.png)
 
-- BalancedRandomFOrestClassifier randomly under-samples each bootstrap sample to balance it, while EasyEnsembleCLassifier also achieves balance thorugh random undersampling, but by utilizing AdaBoost learners. In this analysis, BalancedRandomForestClassifier had a Balanced Accuracy Score of 0.79 and a f1 of 0.95, while EasyEnsembleClassifier had a Balanced Accuracy score of 0.93 and a f1 of 0.97.
+- BalancedRandomForestClassifier randomly under-samples each bootstrap sample to balance it, while EasyEnsembleCLassifier also achieves balance thorugh random undersampling, but by utilizing AdaBoost learners. In this analysis, BalancedRandomForestClassifier had a Balanced Accuracy Score of 0.79 and a f1 of 0.95, while EasyEnsembleClassifier had a Balanced Accuracy score of 0.93 and a f1 of 0.97.
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+After completing the analysis using the imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling, multiple sampling methods were used to predict and compare credit risk among credit card applicants. The over-, under- and combination sampling methods all demonstrated high precision with a lower recall, so we would not recommend this for the purposes of predicting credit risk in card applicants. The ensemble methods performed well and the EasyEnsembleClassifier would be recommended for its precision, recall and f1 score, although overfitting needs to be taken into consideration with both Ensemble methods. 
+
