@@ -46,7 +46,7 @@ Balanced Accuracy Score
 Imbalanced Classification Report
 >![SMOTEENNB](https://user-images.githubusercontent.com/77405273/119721604-2b52a700-be20-11eb-8c33-69bf6fb187a0.png)
 
-- Description
+- SMOTEENN combines over- and undersampling using SMOTE paired with Edited Nearest Neighbors. In this analysis, SMOTEENN produced a Balanced Accuracy Score of 0.62 and a f1 of 0.70, performing similarily to the Oversampling methods, but will a signifacntly lower recall score. 
 
 ### **Ensemble Classifiers**
 
