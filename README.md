@@ -24,7 +24,7 @@ Balanced Accuracy Score
 Imbalanced Classification Report
 >![SMOTEB](https://user-images.githubusercontent.com/77405273/119721593-27bf2000-be20-11eb-9111-0e731e7f882f.png)
 
-- The RandomOverSampler will generate new samples by randomly selecting replacements from existing samples to account for under-representation. In this example the Balanced accuracy score was X while the f1 score was X. Using SMOTE (Syntheitc Minority Over-sampling Technique), random examples from the minority class are chosen then k of the nearest neighbors are found. Neighbors are then used to generate synthetic examples. In this analysis, the SMOTE method produced a Balanced accuracy score of X anf f1 of X. 
+- The RandomOverSampler will generate new samples by randomly selecting replacements from existing samples to account for under-representation. In this example the Balanced accuracy score was 0.65 while the f1 score was 0.81. Using SMOTE (Syntheitc Minority Over-sampling Technique), random examples from the minority class are chosen then k of the nearest neighbors are found. Neighbors are then used to generate synthetic examples. In this analysis, the SMOTE method produced a Balanced accuracy score of 0.62 and f1 of 0.77.
 
 ### **Undersampling Algorithm**
 
@@ -35,7 +35,7 @@ Balanced Accuracy Score
 Imbalanced Classification Report
 >![UnderB](https://user-images.githubusercontent.com/77405273/119721596-2857b680-be20-11eb-8d15-a1cf8d5a2f2b.png)
 
-- Description
+- The ClusterCentroids method of undersampling where the majority class is under sampled by replacing a cluster of majority samples using the KMeans algorithm. In this analysis, the ClusterCentroids method produced a Balanced Accuracy score of 0.51 and an f1 of 0.60, which underperforms compared to the Oversampling techniques with this particular dataset. 
 
 ### **Combination Over- and Undersampling Algorithm**
 
