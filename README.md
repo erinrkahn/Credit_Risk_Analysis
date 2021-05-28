@@ -64,7 +64,7 @@ Balanced Accuracy Score
 Imbalanced Classification Report
 >![EasyEnsembleB](https://user-images.githubusercontent.com/77405273/119721611-2c83d400-be20-11eb-908b-dab39c89f401.png)
 
-- Description
+- BalancedRandomFOrestClassifier randomly under-samples each bootstrap sample to balance it, while EasyEnsembleCLassifier also achieves balance thorugh random undersampling, but by utilizing AdaBoost learners. In this analysis, BalancedRandomForestClassifier had a Balanced Accuracy Score of 0.79 and a f1 of 0.95, while EasyEnsembleClassifier had a Balanced Accuracy score of 0.93 and a f1 of 0.97.
 
 ## Summary
 
