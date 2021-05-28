@@ -24,7 +24,7 @@ Balanced Accuracy Score
 Imbalanced Classification Report
 >![SMOTEB](https://user-images.githubusercontent.com/77405273/119721593-27bf2000-be20-11eb-9111-0e731e7f882f.png)
 
-- Description
+- The RandomOverSampler will generate new samples by randomly selecting replacements from existing samples to account for under-representation. In this example the Balanced accuracy score was X while the f1 score was X. Using SMOTE (Syntheitc Minority Over-sampling Technique), random examples from the minority class are chosen then k of the nearest neighbors are found. Neighbors are then used to generate synthetic examples. In this analysis, the SMOTE method produced a Balanced accuracy score of X anf f1 of X. 
 
 ### **Undersampling Algorithm**
 
