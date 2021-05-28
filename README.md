@@ -24,7 +24,7 @@ Balanced Accuracy Score
 Imbalanced Classification Report
 >![SMOTEB](https://user-images.githubusercontent.com/77405273/119721593-27bf2000-be20-11eb-9111-0e731e7f882f.png)
 
-- The RandomOverSampler will generate new samples by randomly selecting replacements from existing samples to account for under-representation. In this example the Balanced accuracy score was 0.65 while the f1 score was 0.81. Using SMOTE (Syntheitc Minority Over-sampling Technique), random examples from the minority class are chosen then k of the nearest neighbors are found. Neighbors are then used to generate synthetic examples. In this analysis, the SMOTE method produced a Balanced accuracy score of 0.62 and f1 of 0.77.
+- The RandomOverSampler will generate new samples by randomly selecting replacements from existing samples to account for under-representation. In this example the Balanced accuracy score was 0.65 while the f1 score was 0.81. Using SMOTE (Synthetic Minority Over-sampling Technique), random examples from the minority class are chosen then k of the nearest neighbors are found. Neighbors are then used to generate synthetic examples. In this analysis, the SMOTE method produced a Balanced accuracy score of 0.62 and f1 of 0.77.
 
 ### **Undersampling Algorithm**
 
@@ -46,7 +46,7 @@ Balanced Accuracy Score
 Imbalanced Classification Report
 >![SMOTEENNB](https://user-images.githubusercontent.com/77405273/119721604-2b52a700-be20-11eb-8c33-69bf6fb187a0.png)
 
-- SMOTEENN combines over- and undersampling using SMOTE paired with Edited Nearest Neighbors. In this analysis, SMOTEENN produced a Balanced Accuracy Score of 0.62 and a f1 of 0.70, performing similarily to the Oversampling methods, but will a signifacntly lower recall score. 
+- SMOTEENN combines over- and undersampling using SMOTE paired with Edited Nearest Neighbors. In this analysis, SMOTEENN produced a Balanced Accuracy Score of 0.62 and a f1 of 0.70, performing similarly to the Oversampling methods, but will a signifacntly lower recall score. 
 
 ### **Ensemble Classifiers**
 
@@ -64,7 +64,7 @@ Balanced Accuracy Score
 Imbalanced Classification Report
 >![EasyEnsembleB](https://user-images.githubusercontent.com/77405273/119721611-2c83d400-be20-11eb-908b-dab39c89f401.png)
 
-- BalancedRandomForestClassifier randomly under-samples each bootstrap sample to balance it, while EasyEnsembleCLassifier also achieves balance thorugh random undersampling, but by utilizing AdaBoost learners. In this analysis, BalancedRandomForestClassifier had a Balanced Accuracy Score of 0.79 and a f1 of 0.95, while EasyEnsembleClassifier had a Balanced Accuracy score of 0.93 and a f1 of 0.97.
+- BalancedRandomForestClassifier randomly under-samples each bootstrap sample to balance it, while EasyEnsembleClassifier also achieves balance through random undersampling, but by utilizing AdaBoost learners. In this analysis, BalancedRandomForestClassifier had a Balanced Accuracy Score of 0.79 and a f1 of 0.95, while EasyEnsembleClassifier had a Balanced Accuracy score of 0.93 and a f1 of 0.97.
 
 ## Summary
 
